@@ -14,10 +14,10 @@ public class UserOperator {
         Matcher matcher = pattern.matcher(passrule2);
         boolean valid=matcher.matches();
         if (valid==true){
-            System.out.println("Your password "+passrule2+" is Valid");
+            System.out.println("Your password "+password+" is Valid");
         }
         else{
-            System.out.println("Your password "+passrule2+" is Invalid");
+            System.out.println("Your password "+password+" is Invalid");
         }
     }
 
