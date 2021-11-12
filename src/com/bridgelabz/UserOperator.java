@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UserOperator {
-    public void passrule3(String password){
+    public void passrule4(String password){
        // String regex = "^[A-Z a-z 0-9]{9}$";
         String regex = "^(?=.*[A-Z]){1}(?=.*[a-z])(?=.*[0-9])(?=.*[@#$%!]).{8,}$";
         Pattern pattern = Pattern.compile(regex);
