@@ -1,7 +1,7 @@
 package com.bridgelabz;
 /*Author:Renu
 *Date:12/11/21
-* Purpose:This program has to lastname is valid or not"
+* Purpose:This program has to email is valid or not"
  */
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
